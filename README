@@ -1,0 +1,21 @@
+--------------------------------------
+--------------------------------------
+        Sebastian Samoilescu
+            GRUPA 315CA
+            TEMA 01 SD
+--------------------------------------
+--------------------------------------
+
+--> Intrucat structura de date SkipList are proprietatea ca elementele sale
+    sunt sortate in orice moment, am ales sa salvez atat timpii cat si 
+    clasamentul intr - o astfel de structura.
+
+--> elementele SkipList - ului sunt determinate atat de scor/timp cat si de
+    id - urile jucatorilor.
+
+--> folosesc un array list pentru a salva id-urile jucatorilor care au
+    acelasi scor intr-o cursa. Ulterior, parcurg clasamentul general 
+    pentru a ordona indicii dupa ordinea in care acestia apar in clasament.
+
+--> pentru a update clasamentul general, sterg un anumit nod si il adaug
+    din nou in clasament cu noul scor.
